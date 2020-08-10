@@ -27,7 +27,7 @@ export default function (props) {
                         exact
                         render={(props) => {
                             return (
-                                <KeepAlive cacheId="a">
+                                <KeepAlive cacheId="b">
                                     <Test {...props} />
                                 </KeepAlive>
                             );
