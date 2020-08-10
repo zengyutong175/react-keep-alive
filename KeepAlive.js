@@ -28,7 +28,7 @@ export default React.memo(function (props) {
                 activated,
                 deactivated,
             });
-            setMap((state) => ({ ...state, ...{ [cacheId]: node } }));
+            setMap((state) => ({ ...state,[cacheId]: node }));
         }
     }, []);
     //加载dom节点
